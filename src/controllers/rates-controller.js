@@ -1,5 +1,6 @@
 const axios = require("axios");
 const { API_URL } = require("../http/index.js")
+// const ApiError = require('../exceptions/api-error.js')
 
 class RatesController {
     async getOneRate(date_req, VAL_NM_RQ) {
